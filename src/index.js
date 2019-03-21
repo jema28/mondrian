@@ -1,6 +1,5 @@
 import React from 'react'
-import { render } from 'react-dom'
+import {render} from 'react-dom'
+import Mondrian from './components/Mondrian/index'
 
-const App = () => <p>Hello world!</p>
-
-render(<App/>, document.getElementById('root'))
+render(<Mondrian/>, document.getElementById('root'))
