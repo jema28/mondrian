@@ -1,5 +1,5 @@
 import React from 'react'
 import {render} from 'react-dom'
-import Mondrian from './components/Mondrian/index'
+import App from '../App'
 
-render(<Mondrian/>, document.getElementById('root'))
+render(<App/>, document.getElementById('root'))
