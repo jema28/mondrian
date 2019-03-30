@@ -1,9 +1,12 @@
-import {createGlobalStyle} from 'styled-components'
+import styled from 'styled-components'
 
-export const GlobalStyle = createGlobalStyle`
-  html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+export const StyledMondrian = styled.div`
+  display: grid;
+  justify-content: center;
+  align-items: center;
+`
+
+export const Title = styled.h1`
+  font-size: 40px;
+  color: ${props => props.theme.white};
 `
