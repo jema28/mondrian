@@ -5,7 +5,8 @@ import {
   Yellow,
   Blue,
   Grey,
-  White
+  White,
+  DarkGrey
 } from './palette.style'
 import Canvas from '../Canvas'
 
@@ -30,6 +31,7 @@ class PaletteCanvas extends Component {
           <Blue onClick={this.getColor}/>
           <Grey onClick={this.getColor}/>
           <White onClick={this.getColor}/>
+          <DarkGrey onClick={this.getColor}/>
         </StyledPalette>
         <Canvas colorPicked={this.state.colorPicked}/>
       </React.Fragment>

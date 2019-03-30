@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const StyledPalette = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 6px;
 
-  width: 250px;
+  width: 300px;
   background: ${props => props.theme.black};
   border: 1px solid black;
   margin-bottom: 30px;
@@ -31,4 +31,9 @@ export const Grey = styled(Red)`
 `
 export const White = styled(Red)`
   background: ${props => props.theme.white};
+`
+export const DarkGrey = styled(Red)`
+  background: ${props => props.theme.darkGrey};
+  border: 1px solid #41454c;
+  box-sizing: border-box;
 `
