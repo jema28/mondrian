@@ -107,6 +107,6 @@ export const Section = styled.div`
 
   :nth-child(19) {
     grid-column: span 2;
-    background: ${props => props.theme.black};
+    background: ${props => props.theme.darkGrey};
   }
 `
