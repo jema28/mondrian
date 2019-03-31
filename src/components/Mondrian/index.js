@@ -1,12 +1,12 @@
 import React from 'react'
 import PaletteCanvas from '../PaletteCanvas'
-import {StyledMondrian, Title} from './mondrian.style'
+import {Title} from './mondrian.style'
 
 const Mondrian = () => (
-  <StyledMondrian>
+  <React.Fragment>
     <Title>Pick and paint!</Title>
     <PaletteCanvas/>
-  </StyledMondrian>
+  </React.Fragment>
 )
 
 export default Mondrian

@@ -5,9 +5,10 @@ export const StyledPalette = styled.div`
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 6px;
 
-  width: 300px;
+  width: 336px;
   background: ${props => props.theme.black};
   border: 1px solid black;
+  margin: 0 auto;
   margin-bottom: 30px;
 `
 

@@ -10,6 +10,11 @@ export const Container = styled.div`
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
   grid-gap: 8px;
+
+  @media (max-width: 550px) {
+    height: 55vh;
+    width: 90vw;
+  }
 `
 export const Section = styled.div`
   background: ${props => props.theme.white};
