@@ -7,9 +7,12 @@ class Canvas extends Component {
   }
 
   canvasBlockClick = element => {
-    let newState = Object.assign({}, this.state);
-    newState.bgColor[element] = this.props.colorPicked;
-    this.setState(newState);
+    const addColortoStateObj = [
+      ...this.state.bgColor.slice(0, element),
+      this.props.colorPicked,
+      ...this.state.bgColor.slice(element + 1)
+    ]
+    this.setState({bgColor: addColortoStateObj})
   }
 
   render() {
